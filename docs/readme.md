@@ -1,12 +1,11 @@
-Introduction
-------------
+# Introduction
+
 The RespiratorApparatus is a project to build a bare minimal respirator using BVMS. 
 It allows the intensivist to select Volume and BPM. PEEP valve of the BVM provides PEEP setting.
 This project was conceived in the backdrop of the #COVID19 outbreak.
 
 
-Folder Structure
-----------------
+# Folder Structure
 
 ```txt
 RespiratorApparatus
@@ -18,13 +17,15 @@ RespiratorApparatus
 	    |--manufacturing : drawings and files for manufacturing
 ```
 
-Note to contributors
---------------------
+# Note to contributors
+
 1. You may upload images in the docs folder but make sure the image size is less than 100K 
 2. Everytime you add a document, please add an entry below 
 
-List of Documents
------------------
+# Rough concept of HMI
+
+![Rough concept of HMI](concept- hmi- 2020-03-23.jpeg)
+
 1. concept- hmi- 2020-03-23.jpeg : rough concept of HMI
 2. concept - seed- 2020-03-20.jpeg : the very first concept that we used as a seed for discussions
 3. Concept-sensing- shape 2020-03-23.jpeg : concept for position sensing and better shape of lever

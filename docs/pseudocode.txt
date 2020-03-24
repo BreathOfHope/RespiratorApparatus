@@ -1,0 +1,40 @@
+ISRHomeSensor()
+{
+    //reverse motor
+    //reset position counter
+}
+
+ISRPositionSensor()
+{
+    //increment position counter
+    // if current position = preset position then reverse motor (preset position is derived from Volume setting)
+    //if current speed < set speed increase speed   (speed derived from both BPM setting and Volume setting)
+    //if current speed > set speed decrease speed
+}
+
+ISRParametersKnobRotate()
+{
+    //works only before Start switch is pressed
+    //increment/decrement selected parameter based on direction of rotation    
+    //update display
+}
+
+ISRParametersKnobPush()
+{
+    //select next param in the list
+    //update display
+}
+
+ISRStartSwitch()
+{
+    //start ventillator
+    //disable this ISR
+    //disable ISRParametersKnobRotate
+    //update display
+}
+
+Loop()
+{
+    //do nothing here
+}
+

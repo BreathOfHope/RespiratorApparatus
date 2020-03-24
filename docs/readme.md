@@ -8,13 +8,15 @@ This project was conceived in the backdrop of the #COVID19 outbreak.
 Folder Structure
 ----------------
 
+```txt
 RespiratorApparatus
-    |--docs 		:all documents for code, electronics and mechanics.
+    |--docs 		: all documents for code, electronics and mechanics.
     |--electronics	: EDA files
     |--firmware		: files for the firmware on the RespiratorApparatus
     |--mechanics	: mechanical designs
 	    |--models	: CAD models
 	    |--manufacturing : drawings and files for manufacturing
+```
 
 Note to contributors
 --------------------

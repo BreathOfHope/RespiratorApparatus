@@ -21,3 +21,5 @@ RespiratorApparatus
 ## Note to contributors
 1. You may upload images in the docs folder but make sure the image size is less than 100K 
 
+
+## [Read More](docs/readme.md)

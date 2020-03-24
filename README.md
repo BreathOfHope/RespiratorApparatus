@@ -5,9 +5,9 @@ It allows the intensivist to select Volume and BPM. PEEP valve of the BVM provid
 This project was conceived in the backdrop of the #COVID19 outbreak.
 
 
-Folder Structure
-----------------
+## Folder Structure
 
+```txt
 RespiratorApparatus
     |--docs 		:all documents for code, electronics and mechanics.
     |--electronics	: EDA files
@@ -16,7 +16,8 @@ RespiratorApparatus
 	    |--models	: CAD models
 	    |--manufacturing : drawings and files for manufacturing
 
-Note to contributors
---------------------
+```
+
+## Note to contributors
 1. You may upload images in the docs folder but make sure the image size is less than 100K 
 
